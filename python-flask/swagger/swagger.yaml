@@ -264,7 +264,7 @@ paths:
     post:
       tags:
       - "pet"
-      summary: "uploads an image"
+      summary: "uploads an image file"
       operationId: "controllers.pet_controller.upload_file"
       consumes:
       - "multipart/form-data"
